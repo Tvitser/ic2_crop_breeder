@@ -37,7 +37,7 @@ Lastly, you need a Transvector Binder and Transvector Dislocator which requires 
 7. Follow the commands on the screen "install" --> "Y" --> "Y" (Note: The OpenOS floppy disk is no longer needed in the robot afterwards)
 8. Copy the following line of code into the robot (middle-click to paste) and hit enter
 
-        wget https://raw.githubusercontent.com/DylanTaylor1/ic2-crop-automation/main/install.lua
+        wget https://raw.githubusercontent.com/Tvitser/ic2_crop_breeder/main/install.lua
 
 9. Install the rest of the scripts by entering:
 
@@ -126,22 +126,5 @@ For starters, I recommend statting-up and spreading the following crops because 
 
 ## Thanks
 
-My repo is a fork from https://github.com/huchenlei/auto-crossbreeding/tree/improve_autocrossbreed which was originally authored by huchenlei and improved by xyqyear. Huge props to them for getting this off the ground and allowing me to take it further.
+My repo is a fork from [https://github.com/huchenlei/auto-crossbreeding/tree/improve_autocrossbreed](https://github.com/DylanTaylor1/ic2-crop-automation) which was originally authored by huchenlei and improved by xyqyear. Huge props to them for getting this off the ground and allowing me to take it further.
 
-## Notable Changes
-
-If you are familiar with the older versions of this code then here are some notable changes that motivated me to develop this fork in the first place.
-
-- Changed general layout to access chests more easily.
-- Changed farm layout to facilitate running autoSpread immediately after autoStat.
-- Added the option to use regular dirt instead of fertilized dirt for crops requiring a particular block underneath.
-- Added configurable maximum growth and maximum resistance stats.
-- Added configurable thresholds for autoSpread, autoStat, and autoTier.
-- Added configurable option to stat-up crops while running autoTier.
-- Added configurable option to cleanup after complete (no longer a flag).
-- Added a built-in storage reset to prevent having to break the robot in order to run autoSpread or autoTier more than once.
-- Added an uninstall script.
-- Code is a LOT cleaner and more organized, just look at this README.
-- It is no longer the code's fault if any of the programs crash (probably).
-
-![Giant Sword](media/Giant_Sword.png?)
