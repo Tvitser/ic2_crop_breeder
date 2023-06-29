@@ -22,11 +22,11 @@ local function scan()
             
             return {
                 isCrop=true,
-                name = rawResult['crop:id'],
+                name = rawResult['crop:name'],
                 gr = rawResult['crop:growth'],
                 ga = rawResult['crop:gain'],
                 re = rawResult['crop:resistance'],
-                tier = tier_handler[rawResult['crop:id']],
+                tier = tier_handler[rawResult['crop:name']],
             }
         end
 
